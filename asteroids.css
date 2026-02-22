@@ -1041,6 +1041,7 @@ td.highlight {
   line-height: 155px;
 }
 #logo img {
+  max-height: 12em;
   vertical-align: middle;
 }
 
