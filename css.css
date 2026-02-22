@@ -229,8 +229,6 @@ td.highlight {
 }
 
 /* User Control Panel */
-#ucp {
-}
 #ucp .content {
   background: #303030;
   border-left: 1px solid #646464;
@@ -366,8 +364,6 @@ td.highlight {
 }
 
 /*Inbox*/
-.inbox {
-}
 .inbox .listing {
   border: 1px solid #646464;
   font-size: 14px;
@@ -411,8 +407,6 @@ td.highlight {
 .inbox .compose a {
   color: #090;
 }
-.inbox .composeform {
-}
 .inbox .composeform label {
   margin-bottom: 10px;
   display: inline-block;
@@ -426,8 +420,6 @@ td.highlight {
   height: 16px;
   background: url("/Service/Themes/Default/icons/flags.png") no-repeat;
   background-position: center 0;
-}
-.inbox .messageview {
 }
 .inbox .message {
   margin-top: 10px;
@@ -557,8 +549,6 @@ td.highlight {
 }
 
 /* Contact cards */
-.contact-card .content {
-}
 .contact-card .content a {
   font-size: 14px;
 }
@@ -879,8 +869,6 @@ td.highlight {
 }
 .path ul li:first-child {
   padding-left: 0;
-}
-.path a {
 }
 
 /*Board Index*/
