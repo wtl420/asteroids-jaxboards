@@ -1766,6 +1766,9 @@ a.mgroup4 {
   color: #fff;
   max-width: 550px;
 }
+.tooltip td {
+  background: url("/Service/Themes/Default/img/tooltip.png");
+}
 .tooltip .top {
   height: 10px;
 }
