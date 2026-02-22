@@ -34,7 +34,7 @@ input[type="submit"],
   border-radius: 5px;
   background: url("./scanlines.png"), #454545; /* Old browsers */
   background:
-    url("./scanlines.png"), linear-gradient(top, #454545 0%, #232323 100%); /* W3C */
+    url("./scanlines.png"), linear-gradient(to bottom, #454545 0%, #232323 100%); /* W3C */
   border: 1px solid #000;
 }
 input[type="submit"]:active,
@@ -45,7 +45,7 @@ input[type="submit"]:focus,
   border-radius: 5px;
   background: url("./scanlines.png"), #232323; /* Old browsers */
   background:
-    url("./scanlines.png"), linear-gradient(top, #232323 0%, #454545 100%); /* W3C */
+    url("./scanlines.png"), linear-gradient(to bottom, #232323 0%, #454545 100%); /* W3C */
   border: 1px solid #000;
 }
 img {
@@ -114,7 +114,7 @@ td.highlight {
   text-align: center;
   background: url("./scanlines.png") #232323; /* Old browsers */
   background:
-    url("./scanlines.png"), linear-gradient(top, #232323 0%, #010101 100%); /* W3C */
+    url("./scanlines.png"), linear-gradient(to bottom, #232323 0%, #010101 100%); /* W3C */
   color: #fff;
   border-radius: 5px 5px 0 0;
 }
@@ -324,7 +324,7 @@ td.highlight {
 #modcp .minibox .title {
   background: url("./scanlines.png") #232323; /* Old browsers */
   background:
-    url("./scanlines.png"), linear-gradient(top, #232323 0%, #010101 100%); /* W3C */
+    url("./scanlines.png"), linear-gradient(to bottom, #232323 0%, #010101 100%); /* W3C */
   padding: 5px;
 }
 #modcp .minibox .content {
@@ -382,7 +382,7 @@ td.highlight {
 .inbox .listing tr:first-of-type {
   background: url("./scanlines.png") #232323; /* Old browsers */
   background:
-    url("./scanlines.png"), linear-gradient(top, #232323 0%, #010101 100%); /* W3C */
+    url("./scanlines.png"), linear-gradient(to bottom, #232323 0%, #010101 100%); /* W3C */
 }
 .inbox .listing tr:hover td {
   background: #666;
@@ -467,7 +467,7 @@ td.highlight {
 #shoutbox .title {
   background: url("./scanlines.png") #232323; /* Old browsers */
   background:
-    url("./scanlines.png"), linear-gradient(top, #232323 0%, #010101 100%); /* W3C */
+    url("./scanlines.png"), linear-gradient(to bottom, #232323 0%, #010101 100%); /* W3C */
   position: relative;
   padding: 7px;
   color: #fff;
@@ -585,7 +585,7 @@ td.highlight {
 .userprofile .leftbar .username {
   background: url("./scanlines.png") #232323; /* Old browsers */
   background:
-    url("./scanlines.png"), linear-gradient(top, #232323 0%, #010101 100%); /* W3C */
+    url("./scanlines.png"), linear-gradient(to bottom, #232323 0%, #010101 100%); /* W3C */
   border-bottom: 1px solid #646464;
   padding: 0.5em;
   font-weight: bold;
@@ -652,7 +652,7 @@ td.highlight {
   border-bottom: none;
   background: url("./scanlines.png") #232323; /* Old browsers */
   background:
-    url("./scanlines.png"), linear-gradient(top, #232323 0%, #010101 100%); /* W3C */
+    url("./scanlines.png"), linear-gradient(to bottom, #232323 0%, #010101 100%); /* W3C */
   color: #fff;
   border-radius: 10px 10px 0 0;
 }
@@ -747,7 +747,7 @@ td.highlight {
   height: 41px;
   background: url("./scanlines.png") #232323; /* Old browsers */
   background:
-    url("./scanlines.png"), linear-gradient(top, #232323 0%, #010101 100%); /* W3C */
+    url("./scanlines.png"), linear-gradient(to bottom, #232323 0%, #010101 100%); /* W3C */
   border: 1px solid #646464;
 }
 .navigation ul li {
@@ -770,7 +770,7 @@ td.highlight {
   margin: 10px 0 0;
   background: url("./scanlines.png") #232323; /* Old browsers */
   background:
-    url("./scanlines.png"), linear-gradient(top, #232323 0%, #010101 100%); /* W3C */
+    url("./scanlines.png"), linear-gradient(to bottom, #232323 0%, #010101 100%); /* W3C */
   padding: 5px;
   border: 1px solid #646464;
 }
@@ -849,7 +849,7 @@ td.highlight {
 .path {
   background: url("./scanlines.png") #232323; /* Old browsers */
   background:
-    url("./scanlines.png"), linear-gradient(top, #232323 0%, #010101 100%); /* W3C */
+    url("./scanlines.png"), linear-gradient(to bottom, #232323 0%, #010101 100%); /* W3C */
   border: 1px solid #646464;
   margin: 5px 0 0;
   padding: 5px;
@@ -916,7 +916,7 @@ td.highlight {
 .boardindex .f_icon img[alt="unread"] {
   background: url("./scanlines.png") #fc0000; /* Old browsers */
   background:
-    url("./scanlines.png"), linear-gradient(top, #fc0000 0%, #570000 99%); /* W3C */
+    url("./scanlines.png"), linear-gradient(to bottom, #fc0000 0%, #570000 99%); /* W3C */
   border: 1px solid #000;
 }
 .boardindex .unread .forum a {
@@ -1247,7 +1247,7 @@ td.highlight {
 }
 #poll .bar {
   background: #454545; /* Old browsers */
-  background: linear-gradient(top, #454545 0%, #343434 99%); /* W3C */
+  background: linear-gradient(to bottom, #454545 0%, #343434 99%); /* W3C */
   height: 16px;
   display: inline-block;
   border: 1px solid #646464;
@@ -1317,7 +1317,7 @@ td.highlight {
 .topicform .progressbar .progress {
   height: 100%;
   background: #454545; /* Old browsers */
-  background: linear-gradient(top, #454545 0%, #343434 99%); /* W3C */
+  background: linear-gradient(to bottom, #454545 0%, #343434 99%); /* W3C */
 }
 #polloptions {
   padding: 10px;
@@ -1367,7 +1367,7 @@ td.highlight {
 .postform .progressbar .progress {
   height: 100%;
   background: #454545; /* Old browsers */
-  background: linear-gradient(top, #454545 0%, #343434 99%); /* W3C */
+  background: linear-gradient(to bottom, #454545 0%, #343434 99%); /* W3C */
 }
 .postform .buttons {
   text-align: center;
@@ -1453,7 +1453,7 @@ td.highlight {
 }
 .calendar .today {
   background: #545454; /* Old browsers */
-  background: linear-gradient(top, #343434 0%, #545454 100%); /* W3C */
+  background: linear-gradient(to bottom, #343434 0%, #545454 100%); /* W3C */
 }
 .calendar .birthdays {
   font-size: smaller;
@@ -1473,7 +1473,7 @@ td.highlight {
 .box > .title {
   background: url("./scanlines.png") #232323; /* Old browsers */
   background:
-    url("./scanlines.png"), linear-gradient(top, #232323 0%, #010101 100%); /* W3C */
+    url("./scanlines.png"), linear-gradient(to bottom, #232323 0%, #010101 100%); /* W3C */
   position: relative;
   padding: 7px;
   color: #fff;
@@ -1505,7 +1505,7 @@ td.highlight {
 .box .content_bottom {
   height: 10px;
   background: #454545; /* Old browsers */
-  background: linear-gradient(top, #454545 1%, #010101 100%); /* W3C */
+  background: linear-gradient(to bottom, #454545 1%, #010101 100%); /* W3C */
 }
 
 /*Function-Specific*/
