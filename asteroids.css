@@ -153,8 +153,7 @@ td.highlight {
 
 /* All windows */
 .window {
-  background: url(http://jaxboards.com/Themes/Default/img/shadowAlpha.png)
-    bottom right;
+  background: url(/Service/Themes/Default/img/shadowAlpha.png) bottom right;
   position: fixed;
 }
 .window .title {
@@ -215,7 +214,7 @@ td.highlight {
   cursor: nw-resize;
   width: 10px;
   height: 10px;
-  background: url(http://jaxboards.com/Themes/Default/icons/cornerdrag.png);
+  background: url(/Service/Themes/Default/icons/cornerdrag.png);
   position: absolute;
 }
 .window .content {
@@ -323,8 +322,7 @@ td.highlight {
   margin: 10px;
   font-size: 12px;
   padding: 2px 25px;
-  background: url(http://jaxboards.com/Themes/Default/icons/inboxicons.png) 0 0
-    no-repeat;
+  background: url(/Service/Themes/Default/icons/inboxicons.png) 0 0 no-repeat;
 }
 #ucp .leftbar h2 {
   background: url(http://i.min.us/iceoWPrxgEOI6.png) #232323;
@@ -368,7 +366,7 @@ td.highlight {
 }
 #ucppage .tooltip {
   font-size: 14px;
-  background: url(http://jaxboards.com/Themes/Default/icons/help.png) no-repeat;
+  background: url(/Service/Themes/Default/icons/help.png) no-repeat;
   text-indent: -1000px;
   display: inline-block;
   width: 20px;
@@ -543,7 +541,7 @@ td.highlight {
 }
 .inbox .switch_converted.flag {
   height: 16px;
-  background: url(http://jaxboards.com/Themes/Default/icons/flags.png) no-repeat;
+  background: url(/Service/Themes/Default/icons/flags.png) no-repeat;
   background-position: center 0;
 }
 .inbox .messageview {
@@ -931,8 +929,7 @@ td.highlight {
 /* Activity (global) */
 .activity {
   padding: 10px 10px 10px 36px;
-  background: url(http://jaxboards.com/Themes/Default/icons/activity.png)
-    no-repeat;
+  background: url(/Service/Themes/Default/icons/activity.png) no-repeat;
 }
 .activity.new_post {
   background-position: 0 -64px;
@@ -1119,8 +1116,7 @@ td.highlight {
   width: 50%;
 }
 #userbox .settings a {
-  background: url(http://jaxboards.com/Themes/Default/icons/wrench.png)
-    no-repeat;
+  background: url(/Service/Themes/Default/icons/wrench.png) no-repeat;
   padding-left: 20px;
   color: #fff;
 }
@@ -1371,14 +1367,12 @@ td.highlight {
   background-color: #343434;
 }
 .forumindex .locked .topic > a:first-child {
-  background: url(http://jaxboards.com/Themes/Default/icons/lock.png) left
-    no-repeat;
+  background: url(/Service/Themes/Default/icons/lock.png) left no-repeat;
   padding-left: 18px;
 }
 .forumindex .pinned .topic > a:first-child {
   font-style: italic;
-  background: url(http://jaxboards.com/Themes/Default/icons/pin.gif) center left
-    no-repeat;
+  background: url(/Service/Themes/Default/icons/pin.gif) center left no-repeat;
   padding-left: 14px;
 }
 .forumindex .error {
@@ -1387,7 +1381,7 @@ td.highlight {
   padding: 20px;
 }
 .forumindex .moderate {
-  background: url(http://jaxboards.com/Themes/Default/icons/posticons.png);
+  background: url(/Service/Themes/Default/icons/posticons.png);
   text-indent: -1000px;
   display: inline-block;
   visibility: hidden;
@@ -1551,8 +1545,8 @@ td.highlight {
 #intopic .quotepost {
   margin-left: 10px;
   padding-left: 18px;
-  background: url(http://jaxboards.com/Themes/Default/icons/posticons.png)
-    no-repeat top left;
+  background: url(/Service/Themes/Default/icons/posticons.png) no-repeat top
+    left;
 }
 #intopic textarea {
   width: 650px;
@@ -1754,8 +1748,8 @@ td.highlight {
 .postoptions .addpoll {
   padding: 0 20px;
   margin: 10px;
-  background: url(http://jaxboards.com/Themes/Default/icons/postoptions.png)
-    no-repeat top left;
+  background: url(/Service/Themes/Default/icons/postoptions.png) no-repeat top
+    left;
 }
 .postoptions .uploadbutton {
   background-position: 0 -32px;
@@ -1823,8 +1817,8 @@ td.highlight {
   width: 880px;
 }
 .postform .uploadbutton {
-  background: url(http://jaxboards.com/Themes/Default/icons/postoptions.png)
-    no-repeat 0 -32px;
+  background: url(/Service/Themes/Default/icons/postoptions.png) no-repeat
+    0 -32px;
   padding-left: 16px;
   width: 100px;
   height: 1em;
@@ -1978,8 +1972,7 @@ td.highlight {
   font-size: smaller;
   position: absolute;
   bottom: 0;
-  background: url(http://jaxboards.com/Themes/Default/icons/birthday.png)
-    no-repeat;
+  background: url(/Service/Themes/Default/icons/birthday.png) no-repeat;
   padding-left: 18px;
 }
 
@@ -2022,7 +2015,7 @@ td.highlight {
   color: #fff;
 }
 .box > .title .x {
-  background: url(http://jaxboards.com/Themes/Default/icons/collapse.png);
+  background: url(/Service/Themes/Default/icons/collapse.png);
   position: absolute;
   top: 0.75em;
   right: 10px;
@@ -2102,8 +2095,8 @@ td.highlight {
 }
 #notification.newmessage {
   padding-left: 60px;
-  background: url(http://jaxboards.com/Themes/Default/icons/newmessage.png)
-    no-repeat 20px center;
+  background: url(/Service/Themes/Default/icons/newmessage.png) no-repeat 20px
+    center;
 }
 .pages-top .active,
 .pages-bottom .active {
@@ -2136,8 +2129,7 @@ td.highlight {
   margin-top: 10px;
 }
 .sort {
-  background: url(http://jaxboards.com/Themes/Default/icons/collapse.png)
-    no-repeat;
+  background: url(/Service/Themes/Default/icons/collapse.png) no-repeat;
   padding-right: 18px;
   display: inline-block;
   background-position: right -56px;
@@ -2147,8 +2139,7 @@ td.highlight {
 }
 #status {
   display: block;
-  background: url(http://jaxboards.com/Themes/Default/icons/status.png) top
-    no-repeat;
+  background: url(/Service/Themes/Default/icons/status.png) top no-repeat;
   width: 16px;
   height: 16px;
   position: absolute;
@@ -2185,8 +2176,7 @@ td.highlight {
   margin-left: 5px;
 }
 #statusers .idle {
-  background: url(http://jaxboards.com/Themes/Default/icons/clock.png) no-repeat
-    2px 2px;
+  background: url(/Service/Themes/Default/icons/clock.png) no-repeat 2px 2px;
   padding-left: 18px;
   font-style: italic;
 }
@@ -2201,8 +2191,8 @@ td.highlight {
 #stats .stats {
   margin-top: 10px;
   padding: 10px 25px;
-  background: url(http://jaxboards.com/Themes/Default/icons/boardstats.png) left
-    center no-repeat;
+  background: url(/Service/Themes/Default/icons/boardstats.png) left center
+    no-repeat;
   border-top: 1px solid #646464;
 }
 #statusers a:after {
@@ -2237,8 +2227,7 @@ td.highlight {
 
 /*Member/Group Specific*/
 a.birthday {
-  background: url(http://jaxboards.com/Themes/Default/icons/birthday.png)
-    no-repeat 2px 2px;
+  background: url(/Service/Themes/Default/icons/birthday.png) no-repeat 2px 2px;
   padding-left: 18px;
 }
 a.mgroup2 {
@@ -2283,8 +2272,7 @@ a.mgroup4 {
 
 /*Contact icons*/
 .contact {
-  background: url(http://jaxboards.com/Themes/Default/icons/contact.png)
-    no-repeat;
+  background: url(/Service/Themes/Default/icons/contact.png) no-repeat;
   padding-left: 20px;
   padding-top: 3px;
 }
@@ -2317,8 +2305,7 @@ a.mgroup4 {
 /*Social icons*/
 .social {
   display: inline-block;
-  background: url(http://jaxboards.com/Themes/Default/icons/social.png)
-    no-repeat;
+  background: url(/Service/Themes/Default/icons/social.png) no-repeat;
   width: 16px;
   height: 16px;
   overflow: hidden;
@@ -2387,8 +2374,7 @@ a.mgroup4 {
   display: inline-block;
   width: 16px;
   height: 16px;
-  background: url(http://jaxboards.com/Themes/Default/icons/check_x.png) top
-    center;
+  background: url(/Service/Themes/Default/icons/check_x.png) top center;
 }
 #validname.good {
   background-position: bottom center;
