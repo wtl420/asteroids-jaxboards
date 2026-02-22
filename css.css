@@ -919,7 +919,6 @@ td.highlight {
   height: 0;
   margin: 0 auto;
   width: 30px;
-  -moz-border-radius: 50px;
   border-radius: 50px;
 }
 .boardindex .f_icon img[alt="read"] {
@@ -1536,7 +1535,6 @@ td.highlight {
   left: 0px;
   background: #000;
   opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
 }
 #notification,
 #modbox {
