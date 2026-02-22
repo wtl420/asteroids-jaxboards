@@ -32,9 +32,9 @@ input[type="submit"],
 .idxtools a {
   padding: 5px;
   border-radius: 5px;
-  background: url("./scanlines.png"), #454545; /* Old browsers */
   background:
-    url("./scanlines.png"), linear-gradient(to bottom, #454545 0%, #232323 100%); /* W3C */
+    url("./scanlines.png"),
+    linear-gradient(to bottom, #454545 0%, #232323 100%), #232323;
   border: 1px solid #000;
 }
 input[type="submit"]:active,
@@ -43,9 +43,9 @@ input[type="submit"]:focus,
 .idxtools a:focus {
   padding: 5px;
   border-radius: 5px;
-  background: url("./scanlines.png"), #232323; /* Old browsers */
   background:
-    url("./scanlines.png"), linear-gradient(to bottom, #232323 0%, #454545 100%); /* W3C */
+    url("./scanlines.png"),
+    linear-gradient(to bottom, #232323 0%, #454545 100%), #454545;
   border: 1px solid #000;
 }
 img {
@@ -112,9 +112,9 @@ td.highlight {
   padding-right: 20px;
   cursor: move;
   text-align: center;
-  background: url("./scanlines.png") #232323; /* Old browsers */
   background:
-    url("./scanlines.png"), linear-gradient(to bottom, #232323 0%, #010101 100%); /* W3C */
+    url("./scanlines.png"),
+    linear-gradient(to bottom, #232323 0%, #010101 100%), #010101;
   color: #fff;
   border-radius: 5px 5px 0 0;
 }
@@ -322,9 +322,9 @@ td.highlight {
   margin: 10px;
 }
 #modcp .minibox .title {
-  background: url("./scanlines.png") #232323; /* Old browsers */
   background:
-    url("./scanlines.png"), linear-gradient(to bottom, #232323 0%, #010101 100%); /* W3C */
+    url("./scanlines.png"),
+    linear-gradient(to bottom, #232323 0%, #010101 100%), #010101;
   padding: 5px;
 }
 #modcp .minibox .content {
@@ -380,9 +380,9 @@ td.highlight {
   background: #454545;
 }
 .inbox .listing tr:first-of-type {
-  background: url("./scanlines.png") #232323; /* Old browsers */
   background:
-    url("./scanlines.png"), linear-gradient(to bottom, #232323 0%, #010101 100%); /* W3C */
+    url("./scanlines.png"),
+    linear-gradient(to bottom, #232323 0%, #010101 100%), #010101;
 }
 .inbox .listing tr:hover td {
   background: #666;
@@ -461,13 +461,12 @@ td.highlight {
   padding: 20px;
   width: 220px;
   margin-top: 30px;
-  background: #343434; /* Old browsers */
-  background: linear-gradient(left, #343434 0%, #454545 100%); /* W3C */
+  background: linear-gradient(left, #343434 0%, #454545 100%), #454545;
 }
 #shoutbox .title {
-  background: url("./scanlines.png") #232323; /* Old browsers */
   background:
-    url("./scanlines.png"), linear-gradient(to bottom, #232323 0%, #010101 100%); /* W3C */
+    url("./scanlines.png"),
+    linear-gradient(to bottom, #232323 0%, #010101 100%), #010101;
   position: relative;
   padding: 7px;
   color: #fff;
@@ -583,9 +582,9 @@ td.highlight {
   border-radius: 10px;
 }
 .userprofile .leftbar .username {
-  background: url("./scanlines.png") #232323; /* Old browsers */
   background:
-    url("./scanlines.png"), linear-gradient(to bottom, #232323 0%, #010101 100%); /* W3C */
+    url("./scanlines.png"),
+    linear-gradient(to bottom, #232323 0%, #010101 100%), #010101;
   border-bottom: 1px solid #646464;
   padding: 0.5em;
   font-weight: bold;
@@ -650,9 +649,9 @@ td.highlight {
   padding: 0.5em;
   border: 1px solid #000;
   border-bottom: none;
-  background: url("./scanlines.png") #232323; /* Old browsers */
   background:
-    url("./scanlines.png"), linear-gradient(to bottom, #232323 0%, #010101 100%); /* W3C */
+    url("./scanlines.png"),
+    linear-gradient(to bottom, #232323 0%, #010101 100%), #010101;
   color: #fff;
   border-radius: 10px 10px 0 0;
 }
@@ -745,9 +744,9 @@ td.highlight {
   padding: 0;
   margin: 0;
   height: 41px;
-  background: url("./scanlines.png") #232323; /* Old browsers */
   background:
-    url("./scanlines.png"), linear-gradient(to bottom, #232323 0%, #010101 100%); /* W3C */
+    url("./scanlines.png"),
+    linear-gradient(to bottom, #232323 0%, #010101 100%), #010101;
   border: 1px solid #646464;
 }
 .navigation ul li {
@@ -768,9 +767,9 @@ td.highlight {
 .footer {
   text-align: center;
   margin: 10px 0 0;
-  background: url("./scanlines.png") #232323; /* Old browsers */
   background:
-    url("./scanlines.png"), linear-gradient(to bottom, #232323 0%, #010101 100%); /* W3C */
+    url("./scanlines.png"),
+    linear-gradient(to bottom, #232323 0%, #010101 100%), #010101;
   padding: 5px;
   border: 1px solid #646464;
 }
@@ -805,8 +804,7 @@ td.highlight {
   width: 209px;
   height: 102px;
   border: 3px double #646464;
-  background: #343434; /* Old browsers */
-  background: linear-gradient(left, #343434 0%, #454545 100%); /* W3C */
+  background: linear-gradient(left, #343434 0%, #454545 100%), #454545;
 }
 #userbox form {
   margin: 0;
@@ -847,9 +845,9 @@ td.highlight {
 
 /*Breadcrumbs*/
 .path {
-  background: url("./scanlines.png") #232323; /* Old browsers */
   background:
-    url("./scanlines.png"), linear-gradient(to bottom, #232323 0%, #010101 100%); /* W3C */
+    url("./scanlines.png"),
+    linear-gradient(to bottom, #232323 0%, #010101 100%), #010101;
   border: 1px solid #646464;
   margin: 5px 0 0;
   padding: 5px;
@@ -885,8 +883,7 @@ td.highlight {
   border: 1px solid #000;
 }
 .boardindex .last_post {
-  background: #343434; /* Old browsers */
-  background: linear-gradient(left, #343434 0%, #454545 100%); /* W3C */
+  background: linear-gradient(left, #343434 0%, #454545 100%), #454545;
   padding: 10px;
   border-right: none;
 }
@@ -895,8 +892,7 @@ td.highlight {
 }
 .boardindex .f_icon {
   border-style: solid none solid none;
-  background: #343434; /* Old browsers */
-  background: linear-gradient(left, #454545 0%, #343434 99%); /* W3C */
+  background: linear-gradient(left, #454545 0%, #343434 100%), #343434;
   width: 40px;
   vertical-align: middle;
   text-align: center;
@@ -914,9 +910,9 @@ td.highlight {
   background: url("./scanlines.png") transparent;
 }
 .boardindex .f_icon img[alt="unread"] {
-  background: url("./scanlines.png") #fc0000; /* Old browsers */
   background:
-    url("./scanlines.png"), linear-gradient(to bottom, #fc0000 0%, #570000 99%); /* W3C */
+    url("./scanlines.png"),
+    linear-gradient(to bottom, #fc0000 0%, #570000 100%), #570000;
   border: 1px solid #000;
 }
 .boardindex .unread .forum a {
@@ -974,8 +970,7 @@ td.highlight {
 }
 .forumindex .last_post {
   width: 250px;
-  background: #343434; /* Old browsers */
-  background: linear-gradient(left, #343434 0%, #454545 100%); /* W3C */
+  background: linear-gradient(left, #343434 0%, #454545 100%), #454545;
 }
 .forumindex .last_post:before {
   content: " » ";
@@ -1027,8 +1022,7 @@ td.highlight {
   border: 1px solid #000;
 }
 .subindex .last_post {
-  background: #343434; /* Old browsers */
-  background: linear-gradient(left, #343434 0%, #454545 100%); /* W3C */
+  background: linear-gradient(left, #343434 0%, #454545 100%), #454545;
   padding: 10px;
   border-right: none;
 }
@@ -1037,8 +1031,7 @@ td.highlight {
 }
 .subindex .f_icon {
   border-style: solid none solid none;
-  background: #454545; /* Old browsers */
-  background: linear-gradient(left, #454545 0%, #343434 99%); /* W3C */
+  background: linear-gradient(left, #454545 0%, #343434 100%), #343434;
   width: 40px;
   vertical-align: middle;
   text-align: center;
@@ -1082,8 +1075,7 @@ td.highlight {
 #intopic .userdata {
   text-align: center;
   width: 150px;
-  background: #454545; /* Old browsers */
-  background: linear-gradient(left, #454545 0%, #343434 99%); /* W3C */
+  background: linear-gradient(left, #454545 0%, #343434 100%), #343434;
 }
 #intopic .avatar {
   margin-top: 10px;
@@ -1246,8 +1238,7 @@ td.highlight {
   padding: 5px;
 }
 #poll .bar {
-  background: #454545; /* Old browsers */
-  background: linear-gradient(to bottom, #454545 0%, #343434 99%); /* W3C */
+  background: linear-gradient(to bottom, #454545 0%, #343434 100%), #343434;
   height: 16px;
   display: inline-block;
   border: 1px solid #646464;
@@ -1316,8 +1307,7 @@ td.highlight {
 }
 .topicform .progressbar .progress {
   height: 100%;
-  background: #454545; /* Old browsers */
-  background: linear-gradient(to bottom, #454545 0%, #343434 99%); /* W3C */
+  background: linear-gradient(to bottom, #454545 0%, #343434 100%), #343434;
 }
 #polloptions {
   padding: 10px;
@@ -1366,8 +1356,7 @@ td.highlight {
 }
 .postform .progressbar .progress {
   height: 100%;
-  background: #454545; /* Old browsers */
-  background: linear-gradient(to bottom, #454545 0%, #343434 99%); /* W3C */
+  background: linear-gradient(to bottom, #454545 0%, #343434 100%), #343434;
 }
 .postform .buttons {
   text-align: center;
@@ -1452,8 +1441,7 @@ td.highlight {
   position: relative;
 }
 .calendar .today {
-  background: #545454; /* Old browsers */
-  background: linear-gradient(to bottom, #343434 0%, #545454 100%); /* W3C */
+  background: linear-gradient(to bottom, #343434 0%, #545454 100%), #545454;
 }
 .calendar .birthdays {
   font-size: smaller;
@@ -1471,9 +1459,9 @@ td.highlight {
   border: 1px solid #646464;
 }
 .box > .title {
-  background: url("./scanlines.png") #232323; /* Old browsers */
   background:
-    url("./scanlines.png"), linear-gradient(to bottom, #232323 0%, #010101 100%); /* W3C */
+    url("./scanlines.png"),
+    linear-gradient(to bottom, #232323 0%, #010101 100%), #010101;
   position: relative;
   padding: 7px;
   color: #fff;
@@ -1504,8 +1492,7 @@ td.highlight {
 }
 .box .content_bottom {
   height: 10px;
-  background: #454545; /* Old browsers */
-  background: linear-gradient(to bottom, #454545 1%, #010101 100%); /* W3C */
+  background: linear-gradient(to bottom, #454545 1%, #010101 100%), #010101;
 }
 
 /*Function-Specific*/
