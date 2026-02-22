@@ -1007,7 +1007,6 @@ td.highlight {
   visibility: hidden;
   width: 16px;
   height: 16px;
-  float: right;
 }
 .forumindex .moderate.selected,
 .forumindex tr:hover .moderate {
